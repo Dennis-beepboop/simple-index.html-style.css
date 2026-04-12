@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dennis P. Ofilan - Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: yellow;
+        }
+        section {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .click-img {
+            width: 200px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: lightgray;
+        }
+        form {
+            width: 60%;
+            margin: auto;
+            text-align: left;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+        }
+        button {
+            padding: 10px;
+            background: #333;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#image">Image</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Profile -->
+<section id="profile">
+    <img src="profilepic.jfif" class="profile-img" alt="Profile Picture">
+    <h1>Dennis P. Ofilan</h1>
+</section>
+
+<!-- About -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Dennis P. Ofilan, a student learning HTML and building my first webpage.</p>
+</section>
+
+<!-- Skills Table -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Clickable Image -->
+<section id="image">
+    <h2>Clickable Image</h2>
+    <a href="#profile">
+        <img src="profilepic.jfif" class="click-img" alt="Click Me">
+    </a>
+</section>
+
+<!-- Contact Form -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        Name:
+        <input type="text" required>
+
+        Email:
+        <input type="email" required>
+
+        Message:
+        <textarea required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+</body>
+</html>
